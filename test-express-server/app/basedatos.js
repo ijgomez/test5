@@ -54,9 +54,11 @@ var perfiles = [
     { id: 3, name: 'OPERATOR', actions: []}
 ];
 var acciones = [
-    {id: 1, name: 'REPORTS'},
-    {id: 2, name: 'SUPPORT'},
-    {id: 3, name: 'SECURITY'}
+    {id: 1, name: 'CREATE'},
+    {id: 2, name: 'READ'},
+    {id: 3, name: 'UPDATE'},
+    {id: 4, name: 'DELETE'},
+    {id: 5, name: 'EXECUTE'}
 ];
 module.exports.usuarios = usuarios;
 module.exports.perfiles = perfiles;

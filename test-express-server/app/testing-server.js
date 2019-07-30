@@ -16,7 +16,7 @@ var usersController = require('./controllers/users-controller.js');
 var statusController = require('./controllers/status-controller.js');
 
 var server = express();
-var expressWs = require('express-ws')(server);
+//var expressWs = require('express-ws')(server);
 
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: false }));
